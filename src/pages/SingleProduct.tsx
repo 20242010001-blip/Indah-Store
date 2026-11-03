@@ -79,7 +79,7 @@ const SingleProduct = () => {
           <div className="flex flex-col gap-2">
             <h1 className="text-4xl">{singleProduct?.title}</h1>
             <div className="flex justify-between items-center">
-              <p className="text-base text-secondaryBrown">
+              <p className="text-base text-primaryPink">
                 {formatCategoryName(singleProduct?.category || "")}
               </p>
               <p className="text-base font-bold">${ singleProduct?.price }</p>
@@ -124,7 +124,7 @@ const SingleProduct = () => {
           </div>
           <div className="flex flex-col gap-3">
             <Button mode="brown" text="Add to cart" onClick={handleAddToCart} />
-            <p className="text-secondaryBrown text-sm text-right">
+            <p className="text-primaryPink text-sm text-right">
               Delivery estimated on the Friday, July 26
             </p>
           </div>

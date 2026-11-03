@@ -4,7 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        secondaryBrown: "#8A8475",
+        primaryPink: "#ec5f8c",
+        deepPink: "#d94675",
+        softPink: "#fff1f6",
       },
     },
   },

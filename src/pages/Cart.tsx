@@ -154,7 +154,7 @@ const Cart = () => {
                       Learn more about how shipping is calculated
                     </span>
                     <QuestionMarkCircleIcon
-                      className="h-5 w-5 text-secondaryBrown"
+                      className="h-5 w-5 text-primaryPink"
                       aria-hidden="true"
                     />
                   </a>
@@ -174,7 +174,7 @@ const Cart = () => {
                       Learn more about how tax is calculated
                     </span>
                     <QuestionMarkCircleIcon
-                      className="h-5 w-5 text-secondaryBrown"
+                      className="h-5 w-5 text-primaryPink"
                       aria-hidden="true"
                     />
                   </a>
@@ -197,7 +197,7 @@ const Cart = () => {
               <div className="mt-6">
                 <Link
                   to="/checkout"
-                  className="text-white bg-secondaryBrown text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
+                  className="text-white bg-primaryPink hover:bg-deepPink transition-colors text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
                 >
                   Checkout
                 </Link>

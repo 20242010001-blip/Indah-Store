@@ -54,25 +54,25 @@ const SidebarMenu = ({
               to="/"
               className="text-4xl font-light tracking-[1.08px] max-sm:text-3xl max-[400px]:text-2xl"
             >
-              FASHION
+              FASHION INDAH
             </Link>
           </div>
           <div className="flex flex-col items-center gap-1 mt-7">
             <Link
               to="/"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+              className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
             >
               Home
             </Link>
             <Link
               to="/shop"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+              className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
             >
               Shop
             </Link>
             <Link
               to="/search"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+              className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
             >
               Search
             </Link>
@@ -80,7 +80,7 @@ const SidebarMenu = ({
               <>
                 <button
                   onClick={logout}
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                  className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
                 >
                   Logout
                 </button>
@@ -89,13 +89,13 @@ const SidebarMenu = ({
               <>
                 <Link
                   to="/login"
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                  className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
                 >
                   Sign in
                 </Link>
                 <Link
                   to="/register"
-                  className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+                  className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
                 >
                   Sign up
                 </Link>
@@ -103,7 +103,7 @@ const SidebarMenu = ({
             )}
             <Link
               to="/cart"
-              className="py-2 border-y border-secondaryBrown w-full block flex justify-center"
+              className="py-2 border-y border-primaryPink w-full block flex justify-center hover:bg-softPink"
             >
               Cart
             </Link>

@@ -102,7 +102,7 @@ const Register = () => {
           className="text-xl max-md:text-lg max-[450px]:text-sm"
         >
           Already have an account?{" "}
-          <span className="text-secondaryBrown">Login now</span>.
+          <span className="text-primaryPink">Login now</span>.
         </Link>
       </form>
     </div>

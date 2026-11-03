@@ -32,7 +32,7 @@ const ProductItem = ({
       >
         <h2>{title}</h2>
       </Link>
-      <p className="text-secondaryBrown text-lg tracking-wide text-center max-md:text-base">
+      <p className="text-primaryPink text-lg tracking-wide text-center max-md:text-base">
         {formatCategoryName(category)}{" "}
       </p>
       <p className="text-black text-2xl text-center font-bold max-md:text-xl">
@@ -41,7 +41,7 @@ const ProductItem = ({
       <div className="w-full flex flex-col gap-1">
         <Link
           to={`/product/${id}`}
-          className="text-white bg-secondaryBrown text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
+          className="text-white bg-primaryPink hover:bg-deepPink transition-colors text-center text-xl font-normal tracking-[0.6px] leading-[72px] w-full h-12 flex items-center justify-center max-md:text-base"
         >
           View product
         </Link>

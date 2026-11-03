@@ -14,9 +14,9 @@ const Header = () => {
       <HiBars3 className="text-2xl max-sm:text-xl mr-20 max-lg:mr-0 cursor-pointer" onClick={() => setIsSidebarOpen(true)} />
       <Link
         to="/"
-        className="text-4xl font-light tracking-[1.08px] max-sm:text-3xl max-[400px]:text-2xl"
+        className="text-3xl font-bold tracking-[1.08px] text-deepPink max-sm:text-2xl max-[400px]:text-xl"
       >
-        FASHION
+        FASHION INDAH
       </Link>
       <div className="flex gap-4 items-center max-sm:gap-2">
         <Link to="/search">

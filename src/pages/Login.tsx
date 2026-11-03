@@ -85,7 +85,7 @@ const Login = () => {
           className="text-xl max-md:text-lg max-[450px]:text-sm"
         >
           Don’t have an account?{" "}
-          <span className="text-secondaryBrown">Register now</span>.
+          <span className="text-primaryPink">Register now</span>.
         </Link>
       </form>
     </div>
